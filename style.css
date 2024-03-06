@@ -1,0 +1,103 @@
+*{
+      margin: 0px;
+      padding: 0px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      overflow-y: hidden;
+}
+
+.root{
+      background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(https://img.genial.ly/6058a56cf9914722ff596c8a/ea443b3e-66d3-49af-a224-ab195c05ac8f.jpeg); 
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+}
+
+.nav_bar{
+      padding-top: 1%;
+      padding-left: 2vw;
+      padding-right: 4vw;
+      height: 10vh;
+      display:flex;
+      flex-direction: row;
+      justify-content:space-between;
+      align-items: center;
+     
+}
+
+.img-logo{
+      width: 14%;
+      color: red;
+}
+
+
+.sign_in{
+   
+   padding: 8px 20px;
+   background-color: red;
+   display: inline;
+   margin: 2px 8px;
+   color: #ffffff;
+   
+}
+
+
+.main_container{
+      display: flex;
+      width: 100%;
+      height: 90vh;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+}
+.main-titles-container{
+      width:50%;
+      text-align: center;
+      color: white;
+}
+.main-title{
+      font-size: 35px;
+      font-family:Verdana, Geneva, Tahoma, sans-serif;
+      font-weight: 900;
+   
+}
+
+.main-subtitle{
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 20px;
+     line-height: 20px;
+}
+
+.main-call-to-action{
+      font-family:Arial, Helvetica, sans-serif;
+      font-size: 20px;
+      line-height: 100px;
+      
+}
+.main-email-container{
+      width: 55%;
+      background-color: #ffffff;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      
+}
+
+.mail{
+      outline: none;
+      border: none;
+      padding: 20px 0px;
+      font-size: 1em;
+      
+}
+.btn-get-started{
+      cursor: pointer;
+      padding: 15px 20px;
+      font-family:Arial, Helvetica, sans-serif;
+      color:aliceblue;
+      background-color: red;
+      font-size: 30px;
+      text-transform: uppercase;
+      text-align: center;
+      font-weight: 600;
+}
